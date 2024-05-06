@@ -17,3 +17,5 @@ x
 HBack/src/main/java/io/github/m4rciooliveira/orderbot/utils/FileUtil.java,1/4/1424473301cc9e5812badb71bbdee8f59b65aec8
 z
 JBack/src/main/java/io/github/m4rciooliveira/orderbot/utils/MapperUtil.java,c/5/c5ee83be84987bcd9c2f6848daa276723c65df58
+?
+Back/.gitignore,2/8/2865ae14b5ef20f550764dd4bf376afaabf191af
