@@ -10,3 +10,4 @@ telegram:
 gemini:
   url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.0-pro:generateContent?key=${gemini.token}
   token: ${gemini.token}
+  prompt: Você deve se comportar como um atendente de farmácia. Pegunta do cliente;

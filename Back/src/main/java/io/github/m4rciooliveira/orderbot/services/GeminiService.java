@@ -4,6 +4,7 @@ import io.github.m4rciooliveira.orderbot.clients.GeminiClient;
 import io.github.m4rciooliveira.orderbot.dtos.GeminiRequestDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,6 +17,9 @@ public class GeminiService {
 
     private final GeminiClient geminiClient;
     private static final String GEMINI_ROLE_USER = "user";
+
+    @Value("${gemini.prompt}")
+    private String GEMINI_PROMPT;
 
     public String getResult(String prompt) {
         var response = geminiClient.getResult(buildGeminiRequestDTO(prompt));
@@ -30,7 +34,7 @@ public class GeminiService {
                                         .role(GEMINI_ROLE_USER)
                                         .parts(List.of(
                                                 GeminiRequestDTO.GeminiPartDTO.builder()
-                                                        .text(prompt)
+                                                        .text(STR."\{GEMINI_PROMPT} \{prompt}")
                                                         .build()
                                         ))
                                         .build()

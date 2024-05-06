@@ -1,0 +1,19 @@
+
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+~
+NBack/src/main/java/io/github/m4rciooliveira/orderbot/clients/GeminiClient.java,0/5/0548a381b5bcc16be9b075fc66034269e8b48e7a
+}
+MBack/src/main/java/io/github/m4rciooliveira/orderbot/OrderbotApplication.java,4/2/4253aa716ee18185c4e8ff511ad6a6e61ed8b06f
+€
+PBack/src/main/java/io/github/m4rciooliveira/orderbot/clients/TelegramClient.java,e/d/ed8296e4576e56677a7874fb21a08d1e32a647a3
+€
+PBack/src/main/java/io/github/m4rciooliveira/orderbot/services/GeminiService.java,4/7/4742cda1c6381b2441b93825a952c3867c6cfd58
+‚
+RBack/src/main/java/io/github/m4rciooliveira/orderbot/services/TelegramService.java,9/8/984b1401ee0b59663d3fa635f69bcbe4fc2ca3e1
+|
+LBack/src/main/java/io/github/m4rciooliveira/orderbot/services/PharmaBot.java,b/6/b6985ee5a99701df8dcdb6d3b2a31ac1289a85b4
+x
+HBack/src/main/java/io/github/m4rciooliveira/orderbot/utils/FileUtil.java,1/4/1424473301cc9e5812badb71bbdee8f59b65aec8
+z
+JBack/src/main/java/io/github/m4rciooliveira/orderbot/utils/MapperUtil.java,c/5/c5ee83be84987bcd9c2f6848daa276723c65df58
