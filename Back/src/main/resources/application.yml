@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: orderbot
+
+telegram:
+  url: https://api.telegram.org/bot${telegram.token}
+  username: m4rciooliveira_order_bot
+  token: ${telegram.token}
+
+gemini:
+  url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.0-pro:generateContent?key=${gemini.token}
+  token: ${gemini.token}
